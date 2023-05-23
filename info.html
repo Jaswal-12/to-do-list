@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        img{
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>{Information About ToDo List}</h1></center>
+    <center><img src="annotation-concept-illustration_114360-5251.avif" alt=""></center>
+    <p>
+    Build a ToDo List App is the second part of our Get Started guide that walks you through the steps of creating a ToDo List app on platformOS from setting up your development environment to deploying and testing your finished app. It explains basic concepts, main building blocks, and the logic behind platformOS, while also giving you some recommendations on workflow.
+
+PreviewPreview
+You can preview the completed application you will be building based on this tutorial. Open this page and get yourself familiar with it — It will make it easier to imagine everything that will be described below.
+
+PrerequisitesPrerequisites
+This tutorial assumes you have completed the Hello, World! tutorial.
+
+The ToDo App will use a couple of basic building blocks available in platformOS:
+
+Records with simple one-to-many relation
+GraphQL Queries with basic filtering and sorting
+GraphQL Mutations to update your database
+Liquid filters
+Liquid tags
+Pages accepting GET, POST requests
+Query parameters parsing
+Static assets
+Knowing most of the concepts will help you quickly understand what's going on. Knowledge of general web development concepts will also be helpful.
+
+Frontend technology stackFrontend technology stack
+For ease and speed of development a couple of tools have been used in this project.
+
+Skeleton - Minimalistic CSS boilerplate
+TailwindCSS - A utility-first CSS framework for rapidly building custom designs
+Alpine.js - A minimal framework for composing JavaScript behavior in your markup
+If you find HTML code snippets that contain some data attributes or enigmatic CSS classes, those are TailwindCSS and Alpine.js in action. The functionality will work just fine without them, but we wanted to show a more user friendly experience without using heavy JavaScript frameworks.
+
+Application functionalityApplication functionality
+It is a good practice to write down exactly what you want to build before you start writing your first line of code. This will help you in multiple ways, but most importantly, it will allow you to follow a plan when implementing, which translates to saving a lot of time and avoiding distractions.
+
+Your ToDo App will allow users to:
+
+Step 1: Create new list
+Step 2: View all lists
+Step 3: Display list
+Step 4: Rename list
+Step 5: Delete empty list
+Step 6: Create task
+Step 7: Mark task as complete
+Step 8: Edit a task's content
+Step 9: Delete a task
+And this is the order in which you will be implementing the application. Additionally, you will create GraphQL operations first, then pages that will trigger them.
+
+File structureFile structure
+The flexibility of platformOS allows you to merge a lot of these files, but for educational purposes we kept them all separate and categorized in resource-named directories (list, item).
+
+This is what the file structure looks like for this particular application:
+</p>
+</body>
+</html>
